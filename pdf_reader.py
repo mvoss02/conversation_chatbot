@@ -1,5 +1,10 @@
 import PyPDF2
 import regex as re
+import itertools
+
+main_characters = {
+    'movie_scripts/american_psycho.pdf': 'BATEMAN'
+}
 
 def read_pdf(path_to_pdf: str):
     pdf = open(path_to_pdf, 'rb')
@@ -41,12 +46,18 @@ def read_pdf(path_to_pdf: str):
         #print('Step 9: Remove the last three characters if they contain a number (1 to 1000) followed by a dot')
         text_final_no_last_number = re.sub(r'(\d{1,3})\.$', '', text_final_with_newlines)
         
+        # print('Step 10: Replace the main character's name with <NAME> to generlaise between various movie scripts')
+        text_final = re.sub(rf"<{main_characters[path_to_pdf]}>", "<MAIN>", text_final_no_last_number)
+        
         # Remove whitespace elements in list
-        page_list = [line for line in text_final_no_last_number.splitlines() if line.strip()]
+        page_list = [line for line in text_final.splitlines() if line.strip()]
         
         conversations_by_page.append(page_list)
     
     # Remove empty lists
     conversations_by_page = [el for el in conversations_by_page if el]
+    
+    # Combine all conversations to one list
+    all_conversations = list(itertools.chain.from_iterable(conversations_by_page))
          
-    return conversations_by_page
+    return all_conversations
