@@ -1,12 +1,9 @@
 import PyPDF2
 import regex as re
 import itertools
+import json
 
-main_characters = {
-    'movie_scripts/american_psycho.pdf': 'BATEMAN'
-}
-
-def read_pdf(path_to_pdf: str):
+def read_pdf(path_to_pdf: str, save_output: bool, path_to_output: str, main_character: str):
     pdf = open(path_to_pdf, 'rb')
     pdf = PyPDF2.PdfReader(pdf)
     
@@ -47,7 +44,7 @@ def read_pdf(path_to_pdf: str):
         text_final_no_last_number = re.sub(r'(\d{1,3})\.$', '', text_final_with_newlines)
         
         # print('Step 10: Replace the main character's name with <NAME> to generlaise between various movie scripts')
-        text_final = re.sub(rf"<{main_characters[path_to_pdf]}>", "<MAIN>", text_final_no_last_number)
+        text_final = re.sub(rf"<{main_character}>", "<MAIN>", text_final_no_last_number)
         
         # Remove whitespace elements in list
         page_list = [line for line in text_final.splitlines() if line.strip()]
@@ -59,5 +56,45 @@ def read_pdf(path_to_pdf: str):
     
     # Combine all conversations to one list
     all_conversations = list(itertools.chain.from_iterable(conversations_by_page))
+    
+    if save_output:
+        # Save to a text file
+        with open(f"{path_to_output}/{path_to_pdf[14:-4]}.txt", "w", encoding="utf-8") as file:
+            for item in all_conversations:
+                file.write(item + "\n")
          
     return all_conversations
+
+def convert_roles(string: str) -> dict[str, str]:
+    # Regular expression to extract the text between <>
+    match = re.search(r"<(.*?)>", string)
+    
+    # Handle case where no match is found
+    if not match:
+        return {}
+    
+    # Extract the matched text (role)
+    role = match.group(1)
+    
+    # Replace the match with nothing
+    modified_text = re.sub(r"<.*?>", "", string).strip()
+    
+    return {'role': role, 'content': modified_text}
+
+def convert_txt_to_json(path_to_txt: str, path_to_output: str) -> None:
+    with open(path_to_txt, 'r', encoding='utf-8') as file:
+        content = file.readlines()
+    
+    extarcted_role = []
+    for line in content:
+        extarcted_role.append(convert_roles(line))
+        
+    
+    # Save data to a JSONL file
+    with open(f"{path_to_output}/{path_to_txt[21:-4]}.txt", 'w', encoding='utf-8') as f:
+        for entry in extarcted_role:
+            # Serialize each dictionary to JSON and write it as a single line
+            json.dump(entry, f, ensure_ascii=False)
+            f.write('\n')  # Add a newline to separate each JSON object
+        
+    

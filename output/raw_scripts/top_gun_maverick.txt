@@ -1,0 +1,679 @@
+<MAIN> Hey. What is it?CONTINUED: 12 12 CHERRY 11.25.19 - OFFICIAL 
+<HONDO> We’ve been ordered to stand down. They’re scrapping her. 
+<MAIN> Says who? 
+<HONDO> Well go on. 
+<HONDO> They say we fell short. The contract threshold is Mach Ten. 
+<MAIN> Mach ten. That’s Mach ten two months from now. Today’s test point is Mach Nine. 
+<HONDO> Well, that’s not good enough for someone at the Pentagon. 
+<MAIN> Who? 
+<HONDO> Spit it out Simon. 
+<HONDO> Of course. The Drone Ranger. He wants our budget for his unmanned program... 
+<MAIN> Well he’s not gonna get it. Not today. 
+<MAIN> He’s not here yet. 
+<MAIN> Well, that was before the weather changed. 
+<MAIN> Yeah, but dark blue. Ominous. JACK 
+<MAIN> Only one I got. 
+<HONDO> Now remember. Contact threshold is Mach ten. Not point-one, not point- two. Mach Ten. That should keep the program alive. 
+<MAIN> Only one I got. 
+<MAIN> Control, this is Darkstar. How do you read? 
+<MAIN> Loud and clear. Ready for APU start. 
+<HONDO> You know Mav, you don’t have to do this. 
+<MAIN> I know what happens to the program if I don’t. 
+<HONDO> Cleared APU start. Mav presses the APU START button and the left engine whines. 
+<MAIN> Good start. 
+<HONDO> Ready left engine start. 
+<MAIN> Good start. Darkstar is ready for taxi. 
+<HONDO> Thumbs for taxi? 
+<TOWER> Darkstar, you’re cleared taxi. Runway two-one. Winds two-one-zero at ten. 
+<HONDO> Glad to hear you like it. 
+<HONDO> Good data. 
+<HONDO> Good check. 
+<HONDO> Control’s ready for test. 
+<HONDO> Control shows good test. 
+<HONDO> Control concurs. 
+<MAIN> Cleared take-off six-zero-zero and above, switching. 
+<MAIN> Roger. Darkstar, is cleared Isabella, Owens, 25-0-8 above flight level six-zero-zero. Switching to test. Mav sets the frequency for 241.125. 
+<FUEL> Fuel. Go. 
+<SURFACES> Control surfaces. Go. 
+<HONDO> Darkstar, you are cleared above six- zero-zero. Increase to Mach 3.5. 
+<HONDO> Admiral. Uh, just in time, sir- 
+<CAIN> I’m early. And so are you. Care to explain?CONTINUED: 23 23 CHERRY 11.25.19 - OFFICIAL 
+<HONDO> He’s already at 60,000 feet, sir. On the test profile for Mach nine- 
+<CAIN> Now. 
+<HONDO> Uh, Mav, Admiral Cain is asking-- 
+<CAIN> Ordering-CONTINUED: B26 B26 CHERRY 11.25.19 - OFFICIAL 
+<HONDO> He’s the fastest man alive. 
+<CAIN> This changes nothing. You know why I’m here. 
+<CAIN> You got balls there, stick-jockey. I'll give you that. 
+<HONDO> Did anyone offer you a coffee? 
+<MAIN> ALMOST... THERE, GIRL. SHOW ‘EM WHAT YOU CAN DO. 
+<MAIN> That’s it, just a little. 10.1. 
+<SILENCE> EXT. TRUCK STOP - DAWN 44 44 A country highway. Some trucks blow past; a tumbleweed rolls. 
+<MAIN> Excuse me, miss? 
+<CAIN> Maverick... 
+<MAIN> One of life’s mysteries, sir. 
+<CAIN> This isn’t a joke. I asked you a question.CONTINUED: B47 B47 CHERRY 11.25.19 - OFFICIAL 
+<CAIN> Navy doesn’t see it that way. Not anymore. 
+<MAIN> North Island... sir? 
+<CAIN> Call came in with impeccable timing. Right when I was driving here to ground your ass once and for all. It galls me to say it, but for reasons known only to the almighty and your guardian angel... you’ve been called back to Top Gun. 
+<MAIN> Sir- 
+<CAIN> You are dismissed, Captain.CONTINUED: 47 47 CHERRY 11.25.19 - OFFICIAL 
+<MAIN> Yes, sir... But not today. ALT: Maybe so, but not today, Sir. 
+<MAIN> Thank you, sir. 
+<CYCLONE> It wasn’t a compliment. Admiral Beau Simpson. I’m the Airboss. I believe you know Admiral Bates. 
+<WARLOCK> They’re called orders, Maverick. 
+<MAIN> Actually, sir, I finished second. Just want to manage expectations. 
+<WARLOCK> The target is an unsanctioned uranium enrichment plant, constructed in violation of a unilateral NATO treaty. The uranium produced there represents a direct threat to our allies in the region. The Pentagon has tasked us with assembling a strike team and taking it out before it becomes fully operational. 
+<CYCLONE> Seems we’re not the only ones holding on to old relics. 
+<WARLOCK> What’s your read, Captain? 
+<MAIN> Normally, this would be a cake-walk for the F-35’s stealth. But the GPS jamming negates that. CONTINUED: 53 53 CHERRY 11.25.19 - OFFICIAL 
+<WARLOCK> All requirements for which you have real-world experience. 
+<MAIN> Not in the same mission, sir. 
+<CYCLONE> Can it be done or not? 
+<MAIN> How soon until the plant becomes operational? 
+<WARLOCK> Three weeks. Maybe less. 
+<MAIN> Well, it’s a been a while since I’ve flown an F-18... And I’m not sure who I’d trust to fly the other three. 
+<WARLOCK> I think you misunderstand, Captain. 
+<MAIN> Sir? 
+<CYCLONE> We don’t want you to fly it. We want you to teach it. CONTINUED: 53 53 CHERRY 11.25.19 - OFFICIAL 
+<MAIN> Teach... sir... 
+<MAIN> You know there is... sir. 
+<CYCLONE> Bradley Bradshaw. AKA Rooster. I understand you flew with his old man... What was his call sign? 
+<MAIN> Goose. Sir. 
+<CYCLONE> Tragic what happened. 
+<MAIN> With all due respect, sir. I’m not a teacher.CONTINUED: 53 53 CHERRY 11.25.19 - OFFICIAL 
+<MAIN> Sir, that was thirty years ago. I lasted two months. This is not where I belong. 
+<CYCLONE> Let me be perfectly blunt. You weren’t our first choice. You weren’t even on the list. But someone put your name in the SECDEF’s ear. We all know who. 
+<WARLOCK> Captain Mitchell has real-world experience akin to every segment of this operation. 
+<CYCLONE> What Captain Mitchell has is a friend in the Pacific Fleet. 
+<MAIN> Penny. 
+<PENNY> Pete. 
+<MAIN> What are you doing here? 
+<PENNY> I should ask you the same thing.CONTINUED: 55 55 CHERRY 11.25.19 - OFFICIAL 
+<PENNY> I doubt that. Who’d you piss off this time? 
+<MAIN> Another Admiral. Speaking of - how’s your father? 
+<PENNY> Still mad at you. Retired. I moved back to be closer. And I have to admit it was the one place I thought for sure I’d never run into you. 
+<MAIN> I’m just as surprised as you are. 
+<PENNY> I bought this place three years a go... You must be in a lotta trouble. No way you’d come back here willingly. 
+<MAIN> No, this is... I think this is it. 
+<PENNY> Come on. You’ve been saying that for thirty years. You said it after my father chased you out my bedroom window. You said it again when they busted you for that high speed pass. Next thing I know you’re off to Bosnia. Then Iraq. Both times. I don’t even remember the charges before they shipped you off to the desert, test-flying God knows what. You get yourself in trouble, Iceman makes a call, you’re back in the air. 
+<MAIN> Penny, this is different.CONTINUED: 55 55 CHERRY 11.25.19 - OFFICIAL 
+<MAIN> Penny- 
+<PENNY> Too late. 
+<MAIN> What? 
+<PENNY> You were about to ask me what time I get off. 
+<MAIN> No, I was gonna- 
+<PENNY> Too late. He just looks at her. 
+<MAIN> Give you what? 
+<PENNY> That look. 
+<MAIN> I’m not giving you a look. I swear. 
+<PENNY> It’s the only look you got. And this is not happening. 
+<MAIN> I’m not asking. 
+<PENNY> You never ask. That way I never get to say no. Well, this time it’s no. 
+<MAIN> Penny.CONTINUED: 55 55 CHERRY 11.25.19 - OFFICIAL 
+<MAIN> Fine. 
+<PENNY> Fine. 
+<MAIN> You look good. 
+<PENNY> I know. 
+<MAIN> What I miss? 
+<MAIN> For everyone? 
+<PENNY> I’m afraid rules are rules. You’re lucky it’s early. 
+<HANGMAN> WHAT DO WE HAVE HERE? 
+<HANGMAN> Hangman. 
+<PHOENIX> Whatever. 
+<COYOTE> Cold war. 
+<PAYBACK> Same century. 
+<FANBOY> Not this one. 
+<PHOENIX> Payback, Fanboy, that’s Coyote. 
+<BOB> I’ve been here the whole time. 
+<HANGMAN> The man’s a stealth pilot. Literally. 
+<BOB> Weapons Systems Officer, actually. 
+<HANGMAN> With no sense of humor. 
+<BOB> Bob. 
+<PAYBACK> No, your call sign. 
+<BOB> ...Bob. 
+<PHOENIX> You’re my new back-seater. Sent from Lemoore. 
+<BOB> Looks like it. Long pause. No telling what Phoenix thinks about this until: She grabs a pool cue. 
+<PHOENIX> Nine ball, Bob. Rack ‘em.CONTINUED: A56 A56CHERRY 11.25.19 - OFFICIAL 
+<HANGMAN> I’ll have six more on the old timer. 
+<ROOSTER> I thought I’d surprise you. 
+<PHOENIX> Guess I surprised you back. 
+<ROOSTER> It’s good to see you. 
+<PHOENIX> Good to see you, too. 
+<HANGMAN> Much obliged, Pops. 
+<MAIN> How’s about ringing me out before the evening rush. 
+<ROOSTER> You look good, Hangman. 
+<HANGMAN> I am good, Rooster. I’m very good. 
+<HANGMAN> A mission’s a mission. That don’t confront me. What I wanna know is who’s team leader? And which’a y’all have what it takes to follow me? 
+<ROOSTER> Hangman, the only place you’ll ever lead anyone is an early grave.CONTINUED: B56 B56 CHERRY 11.25.19 - OFFICIAL 
+<HANGMAN> Anyone follows you is just gonna... run outta fuel. But then that’s you all over, ain’t it... Rooster? Snug on your perch, waitin’ for juuuuust the right moment. That never comes. 
+<ROOSTER> No, he sure hasn’t. ANGLE ON: Hangman stepping to the jukebox, smiles and makes a selection. 
+<PAYBACK> Omaha, Halo, Harvard, Yale... Shit, that’s Fritz. 
+<PHOENIX> A regular who’s-who. Everyone a top graduate. 
+<FANBOY> ‘The hell kinda mission is this?CONTINUED: C56 C56 CHERRY 11.25.19 - OFFICIAL 
+<PENNY> It’s been declined. 
+<MAIN> You’re kidding me. 
+<PENNY> That won’t cover it.CONTINUED: C56 C56 CHERRY 11.25.19 - OFFICIAL 
+<PENNY> I’m afraid rules are rules. 
+<CROWD> OVERBOAAAAAAAARD. 
+<HONDO> Halfway to Reno. A lady waiting for me, too. 
+<MAIN> I need at least one person on my side here.CONTINUED: 57 57 CHERRY 11.25.19 - OFFICIAL 
+<MAIN> I’m never gonna hear the end of this, am I? 
+<HONDO> No you are not. ‘The hell they got you doing here, anyway? 
+<MAIN> Teaching. 
+<HONDO> Teaching what? How to recycle perfectly good airplanes? 
+<WARLOCK> Good morning. Take your seats. 
+<MAIN> Max airspeed? 
+<PHOENIX> Mach 1.8. Section Two, Chapter One. 
+<COYOTE> 34 Alpha. 
+<MAIN> Maximum role rate. 
+<FANBOY> Two hundred and twenty five degrees per second. 
+<MAIN> Maximum afterburner. 
+<PAYBACK> 42,000 pounds of thrust. 
+<MAIN> Max rate of climb, everyone. 
+<CLASS> Forty-five thousand feet per minute.CONTINUED: 69 69 CHERRY 11.25.19 - OFFICIAL 
+<MAIN> ... So does your enemy. 
+<HONDO> And we’re off. 
+<MAIN> What the enemy doesn’t know is you. Your limits. I intend to find them. Test them. Push beyond... Flying faster than the speed of sound with one split second to make a life or death decision requires a level of trust, feel, instinct that doesn’t exist in any manual. 
+<MAIN> Or else I shoot back. 
+<HALO> Oh, you think you can take him, Hangman? 
+<ROOSTER> Fanboy, you see him? 
+<FANBOY> No, nothing yet. Nothing on radar. He must be somewhere behind us. 
+<PAYBACK> Two versus one? He’s gotta be kidding. 
+<FANBOY> I know, right. 
+<ROOSTER> He is not kidding, Payback. 
+<PAYBACK> Sir, what say we put some skin in the game? 
+<MAIN> What do you have in mind? 
+<ROOSTER> Payback, don’t do it- 
+<PAYBACK> How about this, Sir? First one to get shot down does two hundred pushups.CONTINUED: C77 C77 CHERRY 11.25.19 - OFFICIAL 
+<FANBOY> They don’t call it an exercise for nothing, Sir. 
+<ROOSTER> Guys. 
+<MAIN> All right. That’s a deal. You ready to go? Fight’s on. Masks go on. Maverick looks up. REVEAL: [MAV IS SNAKING THROUGH VALLEY BELOW THEM.], looking up at their exposed bellies. 
+<FANBOY> I can’t see him. [MAVERICK PIROUETTES TO THE RIGHT INSTEAD OF FLIP AND DIVES AFTER PAYBACK.] [ROOSTER BREAKS WIDE LEFT] and, for a beat, we think he’s running. 
+<PAYBACK> Rooster, where the hell are you? 
+<ROOSTER> PAYBACK, BREAK RIGHT ON MY MARK. 
+<FANBOY> 
+<PAYBACK> Ok, got it. 
+<FANBOY> 
+<PAYBACK> Hang in there Rooster, hang in there, we’re coming for you. 
+<PAYBACK> Shit. Copy. Knock it off. 
+<MAIN> Head back to base, Rooster. See Hondo about your pushups. 
+<PHOENIX> But it’s not. And now you know a little something about Rooster. 
+<HONDO> One hundred and ten... one hundred and eleven... 
+<HARVARD> Hold that tarmac down ‘til we get back, son. 
+<HONDO> One hundred and twenty, one twenty one...CONTINUED: 77 77CHERRY 11.25.19 - OFFICIAL 
+<PHOENIX> Hey, you good? 
+<ROOSTER> Yeah. 
+<PHOENIX> With him? 
+<HANGMAN> With her? 
+<MAIN> That’s a mistake. Cover your wingman, Hangman. ALT: That’s a mistake. Never leave your wingman, Hangman. 
+<HANGMAN> He called you a man, Phoenix. You gonna take that? 
+<PHOENIX> So long as he doesn’t call you a man. 
+<BOB> Jesus. His nose is already coming around. [P/BOB ARE IN HARD LEFT/RIGHT TO EVADE MAVERICK.] 
+<PHOENIX> What? 
+<BOB> He’s coming in for position. He’s on us, he’s on us. 
+<BOB> ALT: What? 
+<MAIN> Woah. Nice move Phoenix. I like your style. 
+<BOB> Get him Hangman, get him, get him off us. 
+<HANGMAN> But dammit I can’t shoot him without shooting you. 
+<PHOENIX> BREAKING RIGHT. 
+<BOB> NO, NO, NEGATIVE. BREAK LE- INT. MAVERICK’S F-18 - SORTIE 2 95 95 Which puts them right in Maverick’s gunsights. [MAV “FIRES.”] 
+<MAIN> Wrong move, Phoenix. That’s a kill. Knock it off. 
+<PHOENIX> Copy, knock it off. Thanks Hangman. 
+<BOB> Sorry, Phoenix. That was my fault. 
+<PHOENIX> No, you made the right call. Hangman sold us out. CONTINUED: 91 91 CHERRY 11.25.19 - OFFICIAL 
+<MAIN> Now I know why they call you Hangman. 
+<MAIN> Generous. Fight’s on. 
+<HANGMAN> Copy kill. 
+<MAIN> That’s guns on you Fritz. Another F-18 is targeted. 
+<HALO> Copy kill. 
+<HANGMAN> Nothing on radar. Again. 
+<ROOSTER> He’ll be coming low to high. 
+<HANGMAN> I’m guessing from behind. 
+<ROOSTER> Or both. That was some shit you pulled on Phoenix. 
+<HANGMAN> I just hastened the inevitable. Besides, I paid for it, didn’t I? 
+<ROOSTER> That’s not the point. Where the hell is he? 
+<ROOSTER> Fight’s on. 
+<ROOSTER> Not this time, Captain. 
+<MAIN> What are you gonna do Rooster? What’s your move? 
+<ROOSTER> What does it matter? You’re gonna wash me out anyhow. ALT: You gonna wash me out? 
+<MAIN> Washing out is entirely up to you. 
+<ROOSTER> That wasn’t always the case, though, was it, Sir? 
+<MAIN> What’s past is past, Rooster. Focus on the enemy up here. 
+<ROOSTER> You are the enemy. 
+<MAIN> Copy. Continue. Bail out anytime, Rooster. 
+<ROOSTER> I can go as low as you, sir. And that’s saying something. 
+<MAIN> That’s a kill. INT. ROOSTER’S F-18 - SORTIE 4 116 116 Rooster seethes, outwitted, but concedes the fight... 
+<ROOSTER> Copy kill. INT. READY ROOM - SORTIE 4 117 117 Everyone exhales, shares a collective look. This is next level shit, even for them. 
+<PHOENIX> What is going on with you? You trying to get kicked out? Breaking the hard deck. Insubordination. That wasn’t you up there. Talk to me. What’s up? 
+<ROOSTER> Don’t worry about it. 
+<PHOENIX> I’m going on this mission. But if you get kicked out, you could leave us flying with Hangman. So what the hell was that- 
+<ROOSTER> HE PULLED MY PAPERS. 
+<PHOENIX> What? Who? 
+<ROOSTER> Maverick. He pulled my application to the Naval academy. He set me back four years. 
+<PHOENIX> Why would he do that? 
+<COYOTE> The man, the legend. There he is... 
+<HANGMAN> No, next to him. He look familiar to you? 
+<COYOTE> What have we here? 
+<CYCLONE> Five thousand feet is not just a rule. It is a law. As immutable as gravity. 
+<MAIN> The hard deck will be much lower for the mission, sir- 
+<CYCLONE> It does not change without my approval and certainly not in the middle of an exercise. And that cobra maneuver of yours could have killed all three of you. I never want to see that shit again.CONTINUED: 119 119 CHERRY 11.25.19 - OFFICIAL 
+<MAIN> That as good as they are, they still have something to learn. 
+<CYCLONE> You’re talking about the best fighter pilots on the planet, Captain. 
+<MAIN> That’s what they’ve been told for their entire careers - while they’ve been dropping bombs from high altitude with little to no dogfighting. The parameters of this mission call for something they’ve never encountered- 
+<CYCLONE> You have less than three weeks. You will teach them how to fly as a team and how to strike the target. 
+<MAIN> And how to come home. 
+<CYCLONE> Every mission has its risks. These pilots accept that. 
+<MAIN> I don’t... sir. 
+<CYCLONE> Every morning from this day forward, you will brief us on your instructional plans, in writing. Nothing will change without my expressed approval. 
+<MAIN> Including the hard deck, sir?CONTINUED: 120 120 CHERRY 11.25.19 - OFFICIAL 
+<MAIN> Sir. 
+<CYCLONE> What is this? 
+<MAIN> It’s a request to lower the hard deck, sir. To practice the low- level bombing run. Per the mission parameters. 
+<WARLOCK> You could learn a thing or two about timing, Captain. 
+<MAIN> Amelia? 
+<AMELIA> I know. I got big. Bar opens at five.CONTINUED: 120 120 CHERRY 11.25.19 - OFFICIAL 
+<MAIN> How’s your dad? 
+<AMELIA> With his wife. In Hawaii. 
+<MAIN> I insist. 
+<PENNY> One thing you can say about Captain Mitchell. He always keeps his affairs in order. 
+<AMELIA> Captain? Still? 
+<MAIN> A highly decorated captain. 
+<PENNY> Finish up. We need to get the boat to the yard. 
+<AMELIA> I can’t go.CONTINUED: 125 125 CHERRY 11.25.19 - OFFICIAL 
+<AMELIA> Test tomorrow. I have to study. 
+<PENNY> I can’t sail her alone. 
+<AMELIA> Use the engine. 
+<PENNY> And why are we are we taking her to the yard? 
+<AMELIA> To fix the engine. 
+<MAIN> I can help you. 
+<PENNY> Mav. 
+<MAIN> Penny. I’m in the Navy. 
+<PENNY> Little rougher than I was expecting. 
+<MAIN> You don’t say. 
+<PENNY> Pump on the backstay and de-power the sails. 
+<MAIN> What does that mean? 
+<PENNY> You’re supposed to be in the Navy.CONTINUED: 125 125 CHERRY 11.25.19 - OFFICIAL 
+<PENNY> We’re going to flatten the sail. Sort of like raising the flaps on an airplane. 
+<MAIN> To reduce drag. 
+<PENNY> Exactly. 
+<MAIN> How do I do that? 
+<PENNY> Pump that handle for me. 
+<MAIN> Lift. 
+<PENNY> Pull the Cunningham. 
+<MAIN> Angle of attack. 
+<PENNY> Right you are. 
+<MAIN> For what? 
+<PENNY> The afterburner. 
+<PENNY> Thanks for helping today. 
+<MAIN> Not exactly sure I helped. 
+<MAIN> What look? 
+<PENNY> Goodnight. 
+<MAIN> Night. 
+<PENNY> Yeah. 
+<PHOENIX> We gotta move, Coyote. 
+<COYOTE> God dammit. 
+<MAIN> Why are they dead? 
+<PHOENIX> We broke the 300 foot ceiling. A surface-to-air missile took us out. 
+<MAIN> No. Why are they dead?CONTINUED: 128 128 CHERRY 11.25.19 - OFFICIAL 
+<MAIN> Was there a reason you didn’t communicate with your team? 
+<MAIN> And why didn’t you anticipate the turn? You were briefed on the terrain. 
+<PAYBACK> Hangman ease up. Canyon’s getting tighter. 
+<HANGMAN> Negative. Increase your speed. 
+<PAYBACK> You’re going too fast, man.CONTINUED: 131 131 CHERRY 11.25.19 - OFFICIAL 
+<PAYBACK> DAMMIT, SLOW DOWN- SHIT. Too close to the canyon wall, Payback pulls up, breaking the ceiling. 
+<FANBOY> We’re too high- An alarm sounds. 
+<MAIN> What happened? 
+<HANGMAN> I flew as fast as I could. Kinda like my ass depended on it. 
+<MAIN> And... 
+<ROOSTER> He put his team in danger and his wingman is dead. 
+<HANGMAN> They couldn’t keep up. 
+<YALE> Rooster, we’re late. 
+<ROOSTER> We’re alive. We’ll make up time in the straightaway. 
+<YALE> We’re too far behind. We have to go now. 
+<ROOSTER> Maintain current speed. We can make it, WE CAN MAKE IT- INT. TACTICAL AUDITORIUM - DEBRIEF - DAY 141 141 
+<MAIN> What did you do wrong? 
+<PHOENIX> Sir. 
+<ROOSTER> You don’t know that. 
+<HANGMAN> You’re not. Flying. Fast enough. You were team leader up there. 
+<FANBOY> We’ll be pulling even higher G’s, and the missiles will be real. 
+<PAYBACK> The ceiling will be one hundred feet, time to target, two and half minutes. 
+<HANGMAN> You don’t have a second to waste. 
+<ROOSTER> We made it to the target. 
+<MAIN> And superior enemy planes intercepted you on your way out. 
+<ROOSTER> Then it’s a dog fight- 
+<MAIN> Against fifth generation fighters. 
+<ROOSTER> We’d still have a chance. 
+<MAIN> In an F18- 
+<ROOSTER> It’s not the plane, it’s the pilot- 
+<MAIN> Exactly. 
+<ROOSTER> There’s more than one way to fly this mission, sir. 
+<HANGMAN> You don’t get it. All eyes turn to him.CONTINUED: 141 141 CHERRY 11.25.19 - OFFICIAL 
+<HANGMAN> I don’t mean to criticize. You’re conservative is all. 
+<MAIN> Lieutenant- 
+<HANGMAN> We’re going into combat, son. On a level no living pilot has ever seen. 
+<HANGMAN> I’m cool, I’m cool. It’s all good.ROOSTER You sonofabitch. 
+<MAIN> You’re all dismissed.CONTINUED: 141 141 CHERRY 11.25.19 - OFFICIAL 
+<HANGMAN> You know I’m right. 
+<MAIN> I said you’re dismissed. 
+<SARAH> Girls, girls, why don’t you head outside? 
+<MAIN> Sarah. 
+<SARAH> Maverick. 
+<MAIN> It’s come back. 
+<SARAH> No one knows. He’s still on active duty. 
+<MAIN> Sarah... 
+<MAIN> Admiral. 
+<ICEMAN> So who’s the best pilot... 
+<MAIN> It’s a nice moment. Don’t ruin it. 
+<CYCLONE> What is this? 
+<MAIN> Dog fight football. Offense and defense at the same time. 
+<CYCLONE> And who’s winning? 
+<MAIN> Oh, they stopped keeping score a long time ago. 
+<CYCLONE> This detachment has training to do, Captain. Every available minute counts. 
+<MAIN> Yes, sir. 
+<CYCLONE> Then why am I looking at this clown show? 
+<MAIN> You asked me to build a team, sir. There’s your team. 
+<CYCLONE> The mission has been moved up one week. Last phase of training starts tomorrow. 
+<MAIN> I’ve always liked football. 
+<PENNY> That’s not what I mean and you know it. 
+<MAIN> I’m okay, it’s just... Time, you know? There’s never enough. 
+<PENNY> That’s for sure. 
+<PENNY> You coming or not? 
+<MAIN> He’s a great pilot. He has the instincts. But he’s too careful. 
+<PENNY> Thought you were staying at Karen’s tonight. 
+<MAIN> I should go. 
+<PENNY> Yeah. 
+<PENNY> No, no. I’ll make you something. 
+<MAIN> What? 
+<PENNY> I am serious. I have an example to set and I’m not in the habit of bringing men home on the first date. 
+<MAIN> This is not a first date. 
+<AMELIA> Just don’t break her heart again. 
+<WARLOCK> To avoid contaminating the target valley with radiation, your mission has been moved up one week. 
+<COYOTE> Sir, no one here has successfully flown the low level course. 
+<WARLOCK> Nevertheless, you have been ordered to move on. Captain. 
+<MAIN> We have one week left to focus on phase two - the most difficult stage of the mission: a pop-up strike with a steep dive requiring nothing less than two consecutive miracles. CHERRY 11.25.19 - OFFICIAL 
+<HANGMAN> That’s a miss. Goddamnit. Do your job. 
+<MAIN> If either teams misses... You fail. 
+<MAIN> This... is coffin corner. 
+<HANGMAN> A climb like that, at that speed, we’ll be pulling at least eight Gs. 
+<MAIN> Nine. Minimum. 
+<ROOSTER> The stress limit of the F18s airframe is 7.5 Gs. 
+<MAIN> That’s the accepted limit. To survive this mission you’ll have to pull beyond that, even if it means bending your air frame. 
+<MAIN> Your only chance of survival will be to get what’s left of your aircraft below radar again. Then follow this canyon back to the carrier. 
+<BOB> We’re twelve seconds late on target. We gotta move, we gotta move. 
+<COYOTE> I’m going as fast as I can. 
+<MAIN> Blue team, you are spotted. 
+<BOB> Bandit, Bandit. Radar contact. 20 miles left, ten o’clock. He’s coming fast. 700 knots closure. 
+<COYOTE> Shit, it’s Maverick. 
+<PHOENIX> Stay focused. 
+<COYOTE> What do you want to do? 
+<BOB> On it.. 
+<COYOTE> Popping in 3-2-1.PHOENIX Popping in 3-2-1. 
+<COYOTE> Talk to me, Bob. Where is Maverick? 
+<BOB> I’m a little busy right now. 
+<PHOENIX> WE GOT THIS COYOTE. 
+<BOB> CAPTURED. 
+<COYOTE> GOT IT. BOMBS AWAY. 
+<COYOTE> I’m okay, I’m okay. I’m good... 
+<PHOENIX> Climbing. 
+<BOB> We’re on fire, we’re on fire. 
+<PHOENIX> Throttling back. Shutting off fuel. Extinguishing fire. 
+<BOB> We’re losing the right engine. 
+<PHOENIX> It’s still spinning. I’m gonna try to restart it. Phoenix flips the APU switch and pushes the right throttle forward. 
+<PHOENIX> Goddamnit. 
+<MAIN> Oh my God. 
+<PHOENIX> We lost hydraulics. I can’t control it. 
+<PHOENIX> No, sir. 
+<CYCLONE> Would you say that his training left you no margin for error? 
+<PHOENIX> We suffered a double engine failure at low altitude. We had no choice but to eject. 
+<CYCLONE> Would you say that his training left you no margin for error? 
+<BOB> I know what you want me to say. I’m not going to say it. 
+<PHOENIX> We did what the mission calls for. Captain Mitchell is not responsible for what happened out there. 
+<CYCLONE> Come again? 
+<HONDO> There’s bird guts all down the starboard side of Mav- Of Captain Mitchell’s plane, sir. Phoenix was flying in tight formation with him. I’m guessing the wreckage’ll show she took a flock of birds head on. Cyclone looks at Maverick for another beat, then walks away. Warlock follows, leaving Maverick and Hondo to share a look.CONTINUED: 207 207CHERRY 11.25.19 - OFFICIAL 
+<ROOSTER> I have never lost a wingman. In combat, off a carrier, never. 
+<MAIN> You’ve been lucky. Fly long enough, it’ll happen. There will be others. 
+<ROOSTER> Easy for you to say. No kids, no family. No one to mourn you when you burn in. 
+<MAIN> Go home. Get some sleep. 
+<MAIN> ...You weren’t ready. 
+<ROOSTER> Ready for what? Ready to fly like you? 
+<ROOSTER> My dad believed in you. I’m not gonna make the same mistake. 
+<CYCLONE> I can only imagine what you must be feeling. Take some time. Whatever you need. 
+<MAIN> I appreciate that, sir. But there’s no time. The mission is in- 
+<CYCLONE> I’ll be taking over the training from here. 
+<MAIN> Sir... 
+<CYCLONE> We both know you didn’t want this job, Captain. 
+<MAIN> Sir, there is only one way to fly this mission- 
+<CYCLONE> There’s never only one way- 
+<MAIN> They’re not ready- 
+<CYCLONE> It was your job to get them ready.CONTINUED: 210 210 CHERRY 11.25.19 - OFFICIAL 
+<MAIN> Sir, I- 
+<CYCLONE> You’re grounded, Captain. Permanently. That is all. 
+<PENNY> I heard. I’m sorry. 
+<MAIN> Ice is gone. 
+<PENNY> Then you’re gonna have to find a way back on your own. 
+<MAIN> Back? Penny, I’m out. It’s over. 
+<PENNY> But you’re not finished. And you’ll never be finished if you let it end like this. They’re your pilots. If anything happens to them now, you’ll never forgive yourself. 
+<MAIN> Penny, what can I do-CONTINUED: A212 A212 CHERRY 11.25.19 - OFFICIAL 
+<CYCLONE> Time to target is now four minutes. You’ll be entering the valley level at reduced speed. Not to exceed 420 knots. Rooster’s eyes narrow. What the fuck is this? 
+<BOB> Sir, won’t we be giving their planes time to intercept? 
+<CYCLONE> Well, Lieutenant you have a fighting chance against enemy aircraft. What are the odds of survival in a head-on collision with a mountain? 
+<CYCLONE> Who the hell is that? 
+<MAIN> Maverick to Range Control. Entering at Point Alpha. Confirm a green range. 
+<PHOENIX> Nice... 
+<CYCLONE> Bring all the screens up. 
+<PAYBACK> That’s impossible. 
+<CYCLONE> Tell the tower to order that man to land that aircraft. 
+<MAIN> Talk to me, Goose... 
+<CYCLONE> Shut them off. Shut them all off- 
+<BOB> He’s going again... Cyclone turns to face the screen as everyone else leans in.CONTINUED: 222 222 CHERRY 11.25.19 - OFFICIAL 
+<BOB> Time on target: Two minutes- fifteen. To the second.CONTINUED: 224 224CHERRY 11.25.19 - OFFICIAL 
+<HANGMAN> 10 Gs... Damn. 
+<CYCLONE> On the one hand, you’ve demonstrated that the mission can be flown. Perhaps in the only way it can be survived. On the other hand, you did so by stealing a multi-million dollar military aircraft and flying it in such a manner that it may never be airworthy again. 
+<WARLOCK> I believe the Admiral is asking a rhetorical question, Captain. 
+<MAIN> Sir. 
+<WARLOCK> It’s an underground bunker tucked between these two mountains. Your route of ingress is heavily defended by surface to air missiles, backed up by fifth generation fighters. 
+<MAIN> Most importantly, remember coffin corner. On the climb out of the valley, you’ll be exposed to enemy missiles. Remember, get low as fast as you can and break for home. 
+<MAIN> Payback and Fanboy... Phoenix and Bob. 
+<WARLOCK> And your wingman? 
+<MAIN> Rooster. 
+<WARLOCK> The rest of you will standby on the carrier in reserve. 
+<CYCLONE> This is what you’ve all been training for. Come home safely. 
+<HONDO> Is he ready? 
+<MAIN> He'll have to be.CONTINUED: 239 239 CHERRY 11.25.19 - OFFICIAL 
+<WARLOCK> You’re where you belong. Make us proud. 
+<ROOSTER> Maverick. 
+<MAIN> We’ll talk when we get back. 
+<HONDO> You with me? 
+<MAIN> What? 
+<HONDO> You look like you’ve seen a ghost. 
+<MAIN> You’re a good friend, Hondo. Thank you. For everything. 
+<HONDO> ‘The hell is that supposed to mean? 
+<MAIN> Just that. 
+<HONDO> It’s been an honor, Captain. 
+<PHOENIX> Dagger Two, up and ready. 
+<ROOSTER> Dagger Three, up and ready. 
+<PAYBACK> Dagger Four. We read you, sir. 
+<MAIN> You’re the best of the best. It’s an honor to be flying with you. 
+<PHOENIX> We’re with you, sir. All the way. 
+<CYCLONE> Send ‘em. CHERRY 11.25.19 - OFFICIAL 
+<ROOSTER> Three. 
+<PAYBACK> Four. 
+<MAIN> Mark. 
+<PHOENIX> Two mark. 
+<ROOSTER> Three mark. 
+<PAYBACK> Four mark. 
+<MAIN> Target valley up ahead. Comanche, picture. 
+<MAIN> Dagger attack. 
+<BOB> Uh, Phoenix? 
+<PHOENIX> Don’t ask Bob. 
+<PHOENIX> Looks like we’re clear on radar, Mav. 
+<MAIN> Let’s not take it for granted. 
+<WARLOCK> No turning back now.CHERRY 11.25.19 - OFFICIAL 
+<PHOENIX> Don’t wait for me. 
+<BOB> [Two minutes] to target. 
+<FANBOY> We’re falling behind, Payback. Increase speed to five hundred knots. 
+<PAYBACK> Rooster, do you copy? We’re falling behind. We gotta move. 
+<BOB> [Ninety seconds] to target. 
+<BOB> Negative. 
+<HONDO> Come on, Rooster. 
+<BOB> [One minute] to target. 
+<ROOSTER> We’re okay. We’re okay 
+<MAIN> Phoenix, move up to welded wing. Stand by for pop-up strike... 
+<BOB> Air-to-ground check complete. Laser code verified 1688. Master-arm to go. 
+<FANBOY> Verified 1688. Master arm to go. 
+<MAIN> You have exactly thirty seconds to get it working. We’re counting on you, Fanboy. 
+<WARLOCK> Long range patrol? 
+<HONDO> Come on. Move it or lose it, Rooster. 
+<MAIN> Dammit. Time to intercept? 
+<MAIN> Rooster, we’re tight on time if we want to outrun those bandits. Where are you? 
+<PAYBACK> It won’t make a difference if we don’t step on it. Rooster, bandits are inbound. Come on. 
+<PHOENIX> COME ON, ROOSTER. 
+<PAYBACK> Jesus, Rooster. Not so fast. 
+<ROOSTER> Take welded wing, Payback. 
+<BOB> Target in ten seconds.CHERRY 11.25.19 - OFFICIAL 
+<ROOSTER> Dagger One and Two, I have visual. We’re on your six. 
+<PHOENIX> You can do this, Bob. Phoenix holds their arc steady, as Bob works the FLIR... 
+<MAIN> Come on, Bob. 
+<BOB> Got it. I got it. CAPTURED. 
+<MAIN> HOLD THAT TARGET, BOB. 
+<WARLOCK> That’s miracle number one... 
+<CYCLONE> And now they’re in coffin corner. 
+<FANBOY> Targeting... Seconds away. 
+<ROOSTER> Come on, come on. 
+<FANBOY> SHIT. DEADEYE, DEADEYE. OUR LASER’S GONE. STANDBY. 
+<ROOSTER> We’re out of time. 
+<FANBOY> I’M WORKING ON IT. STAND BY. 
+<ROOSTER> NO TIME. PULL OUT. 
+<PAYBACK> ROOSTER, WAIT- ROOSTER Great balls of fire. 
+<WARLOCK> Miracle number two. 
+<CYCLONE> Now get out of there. 
+<ROOSTER> SHIT. THEY’RE EVERYWHERE. 
+<PAYBACK> GOTTA GET LOW. GOTTA GET LOW. 
+<PAYBACK> He’s gone, Rooster. 
+<ROOSTER> WE HAVE TO CIRCLE BACK. 
+<CYCLONE> Tell him there’s nothing he can do for Maverick. Not in a F- 18. 
+<WARLOCK> Launch search and rescue- CHERRY 11.25.19 - OFFICIAL 
+<HONDO> But Maverick- 
+<CYCLONE> He knew the risk. 
+<PAYBACK> Rooster, those bandits are closing. We can-not go back. 
+<ROOSTER> COMANCHE, PICTURE. 
+<COMMAND> Dagger, Comanche, bandits 30 east. Hot on you. Flow west to evade. 
+<PHOENIX> Rooster... He’s gone. 
+<MAIN> No... 
+<ROOSTER> Oh shit. 
+<MAIN> You all right? 
+<ROOSTER> I’ll manage. 
+<MAIN> What are you doing here? 
+<ROOSTER> What am I doing here?CONTINUED: E299 E299 CHERRY 11.25.19 - OFFICIAL 
+<ROOSTER> I saved your life. 
+<MAIN> I saved your life. That was the whole point. WHAT THE HELL WERE YOU EVEN THINKING? 
+<ROOSTER> YOU TOLD ME NOT TO THINK. 
+<MAIN> Hey... It’s good to see you. 
+<ROOSTER> It’s good to see you, too... So what’s the plan? 
+<MAIN> What does your training tell you? 
+<ROOSTER> Really? We’re in class now? 
+<MAIN> Where’s the extraction point? 
+<ROOSTER> That way. Seven, eight hours on foot. 
+<ROOSTER> Then where are we going? 
+<ROOSTER> You’re not serious. 
+<ROOSTER> You’ve gotta be shittin’ me. 
+<MAIN> I shot down three migs in one of those. 
+<ROOSTER> When was that? World War I? We don’t even know if that bag’a ass can fly.CONTINUED: 303 303 CHERRY 11.25.19 - OFFICIAL 
+<MAIN> Ok, let me see. Okay. 
+<ROOSTER> Mav, wait...There’s something I * need to tell you. * MAVERICK * Tell me later. *CONTINUED: 305 305 CHERRY 11.25.19 - OFFICIAL 
+<ROOSTER> Yeah. 
+<MAIN> Okay. Wow. It’s been a minute, huh Mav? Rooster pulls the CHOCK BLOCKS from the wheels and then runs to the start cart. 
+<MAIN> Come on. 
+<ROOSTER> Come on. Come on. Come on. 
+<MAIN> Come on sweetheart. Come on. 
+<ROOSTER> Mav, let’s go. Come on. 
+<MAIN> This could actually work. 
+<ROOSTER> My God, this thing is so old. 
+<MAIN> Canopy. 
+<ROOSTER> Clear. 
+<ROOSTER> We’re stopping. Why are we stopping, Mav? 
+<MAIN> Just give me a second. Give me a second. 
+<ROOSTER> Uh Mav. There’s a guy on a tank. Big gun. Staring at us. 
+<MAIN> Yep. 
+<ROOSTER> Both runways are cratered, Mav. ALT: Are both runways crated, Mav? 
+<MAIN> Yeah. 
+<ROOSTER> Mav, this is a taxiway. A very short taxiway. 
+<MAIN> Uh huh. Yeah. 
+<ROOSTER> How we gonna get this bag’a ass in the air? 
+<MAIN> Just hang on. 
+<ROOSTER> Holy shit. 
+<MAIN> C’mon, c’mon. 
+<WARLOCK> Have you lost him? 
+<CYCLONE> But what? 
+<WARLOCK> He’s airborne. 
+<CYCLONE> In what?CONTINUED: 308 308 CHERRY 11.25.19 - OFFICIAL 
+<WARLOCK> It can’t be- The both look at the dot on the screen. Hondo stifles a knowing smile. 
+<CYCLONE> Maverick... 
+<HONDO> He’s still alive. 
+<CYCLONE> God help them. 
+<ROOSTER> He’s on us, he’s on us. Here comes another one. SMOKE IN THE AIR. SMOKE IN THE AIR. 
+<MAIN> HIT THE FLARES. HIT THE FLARES.CONTINUED: 312 312 CHERRY 11.25.19 - OFFICIAL 
+<ROOSTER> HOLY SHIT. 
+<MAIN> Going to guns.CONTINUED: DD313 DD313CHERRY 11.25.19 - OFFICIAL 
+<ROOSTER> Come on, you got him. 
+<MAIN> I see it. I see it. 
+<HONDO> That crazy motherfu- EXT. SKIES - MORNING B313 B313 STAGE 6 – GREEN CANYON TO OCEAN SET #2: VR202 - TBD The F-14 roars into frame transitioning from mountains to the ocean below. 
+<MAIN> We got nothing. 
+<HANGMAN> Good afternoon, ladies and gentlemen, this is your savior speaking. Please fasten your seatbelts, return your tray tables to their upright and locked position and prepare for landing. 
+<ROOSTER> Hey, Hangman... you look good. 
+<HANGMAN> I am good, Rooster. I’m very good. 
+<MAIN> Rough Rider, Ghostrider here. 
+<MAIN> Could be the last one. 
+<ROOSTER> You can’t be serious.CONTINUED: 317 317 CHERRY 11.25.19 - OFFICIAL 
+<CYCLONE> Ghostrider, this is Cyclone. Put that bird on the deck now. 
+<MAIN> -aking up. Do -oo -ead? 
+<WARLOCK> He asked permission. That’s progress. 
+<ROOSTER> Why did I bother saving your ass?CONTINUED: B320 B320CHERRY 11.25.19 - OFFICIAL 
+<MAIN> Shit. 
+<ROOSTER> What? What more shit could there possibly be? 
+<MAIN> No nose gear. 
+<ROOSTER> What say we just eject? 
+<MAIN> There’s a good chance the chutes we have on were packed in the late eighties, but sure. Go for it. 
+<ROOSTER> I think I’ll stay with the plane. 
+<MAIN> Just as bad, really. 
+<ROOSTER> You can do this. 
+<MAIN> I appreciate your confidence. 
+<MAIN> Ghostrider. Ball. No hook. No nose gear. 
+<ROOSTER> Please tell me that wasn’t an engine. 
+<MAIN> Correction... ball, no hook, no nose gear... single engine. 
+<ROOSTER> Of course it was an engine. 
+<LSO> A little power.... Come left... Easy with it... 
+<ROOSTER> Yeah. 
+<MAIN> You think you can fix it? 
+<HONDO> Easy.CONTINUED: 321 321 CHERRY 11.25.19 - OFFICIAL 
+<ROOSTER> Chalked yourself another kill. 
+<HANGMAN> That makes two. 
+<PHOENIX> Maverick has five. Makes him an ace. 
+<ROOSTER> Captain Mitchell... Captain Mitchell, SIR. 
+<MAIN> Thanks for saving my life. 
+<ROOSTER> It’s what my dad would’ve done. 
+<MAIN> Is Penny here? 
+<MAIN> Gone? Where? 
+<MAIN> Did she say when she’d be back. 
+<PENNY> I heard you were looking for me. 
+<MAIN> Good trip? 
+<PENNY> Great. You? 
+<MAIN> I could tell you, but... 
+<PENNY> Forget I asked. 
+<MAIN> I missed you. 
+<PENNY> I know. They kiss. 
+<ALTS> CHERRY 11.25.19 - OFFICIAL 
+<PENNY> It’s... very you. 
+<MAIN> How’re you doing back there? 
+<PENNY> I’m amazed something this old can still fly. 
+<MAIN> C’mon, don’t say old. It’s vintage. One more time, if anything goes wrong and it probably won’t. But if it does, I’ll just open the canopy- 
+<PENNY> Uh huh.CONTINUED: 327 327 CHERRY 11.25.19 - OFFICIAL 
+<MAIN> I’ll roll her over and dump you out. 
+<PENNY> You know this isn’t working on me. 
+<MAIN> Just remember to pull that handle on your parachute. 
+<PENNY> Pete- 
+<MAIN> Penny- 
+<PENNY> Will you ever grow up? 
+<MAIN> Some day... 
+<MAIN> JIBE-HO. 
