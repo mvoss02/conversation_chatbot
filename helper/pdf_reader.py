@@ -96,5 +96,3 @@ def convert_txt_to_json(path_to_txt: str, path_to_output: str) -> None:
             # Serialize each dictionary to JSON and write it as a single line
             json.dump(entry, f, ensure_ascii=False)
             f.write('\n')  # Add a newline to separate each JSON object
-        
-    
