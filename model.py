@@ -27,7 +27,7 @@ def main(args):
     # Load training data and split
     train_dataset = load_dataset("json", data_files=[file for file in movie_output_final], split="train")
     
-    # Split dataset into 80-20%
+    # Split dataset into 90-10%
     train_dataset = train_dataset.train_test_split(test_size=0.1, seed=42)
     torch.utils.checkpoint.use_reentrant=True
  
