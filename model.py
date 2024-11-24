@@ -1,6 +1,7 @@
 import argparse
 import torch
 import re
+from helper import config
  
 from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig, TrainingArguments
 from trl import setup_chat_format
@@ -10,22 +11,14 @@ from trl import SFTTrainer
  
 def main(args):
     # Base model id
-    model_id = "mistralai/Mistral-7B-Instruct-v0.2"
+    model_id = config.MODEL_ID
  
     # Finetuned model id
-    output_directory="./output/"
-    peft_model_id=output_directory+"model"
-     
-    # Training data
-    movie_output_final = [
-        'output/final_scripts/american_psycho.jsonl',
-        './output/final_scripts/no_time_to_die.jsonl',
-        './output/final_scripts/top_gun_maverick.jsonl',
-        './output/final_scripts/wedding_crashers.jsonl',
-    ]
+    output_directory=config.OUTPUT_DIRECTORY
+    peft_model_id=config.PEFT_MODEL_ID
  
     # Load training data and split
-    train_dataset = load_dataset("json", data_files=[file for file in movie_output_final], split="train")
+    train_dataset = load_dataset("json", data_files=[file for file in config.MOVIE_OUTPUT_FINAL], split="train")
     
     # Split dataset into 90-10%
     train_dataset = train_dataset.train_test_split(test_size=0.1, seed=42)
@@ -62,7 +55,7 @@ def main(args):
     peft_config = LoraConfig(
             lora_alpha=128, 
             lora_dropout=0.05,
-            r=32, # Change from Niklas / Different from Phil Schmid's blog post
+            r=64, # Change from Niklas / Different from Phil Schmid's blog post
             bias="none",
             target_modules=["q_proj", "v_proj"],
             task_type="CAUSAL_LM"
@@ -76,7 +69,7 @@ def main(args):
         eval_strategy="steps", # Added by Thomas
         eval_steps=1000, # Added by Thomas
         save_steps=1000, # Number of updates steps before two checkpoint saves.
-        num_train_epochs=3, # Total number of training epochs to perform.          
+        num_train_epochs=10, # Total number of training epochs to perform.          
         per_device_train_batch_size=5, # The batch size per GPU/TPU core/CPU for training.
         gradient_accumulation_steps=2, # Number of updates steps to accumulate the gradients for, before performing a backward/update pass.
         gradient_checkpointing=True,
@@ -93,7 +86,7 @@ def main(args):
     )
  
     # Supervised fine-tuning (or SFT for short) 
-    max_seq_length = 512
+    max_seq_length = 1024
     trainer = SFTTrainer(
         model=model,
         args=args,

@@ -1,2 +1,4 @@
 /output/model/
 /output/checkpoints/
+train_dataset.json
+test_dataset.json
