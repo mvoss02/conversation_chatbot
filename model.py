@@ -26,6 +26,9 @@ def main(args):
  
     # Load training data and split
     train_dataset = load_dataset("json", data_files=[file for file in movie_output_final], split="train")
+    
+    # Split dataset into 80-20%
+    train_dataset = train_dataset.train_test_split(test_size=0.1, seed=42)
     torch.utils.checkpoint.use_reentrant=True
  
     # Configure the Bits and Bites quantization
@@ -41,7 +44,8 @@ def main(args):
         model_id,
         device_map="auto",
         torch_dtype=torch.float16, # Change from Niklas / Different from Phil Schmid's blog post
-        quantization_config=bnb_config
+        quantization_config=bnb_config,
+        return_dict=False
     )
     model.config.use_cache = False
  
@@ -69,7 +73,7 @@ def main(args):
         logging_dir=output_directory+"logs", # Tensorboard log directory. Will default to runs/**CURRENT_DATETIME_HOSTNAME**.
         logging_strategy="steps",
         logging_steps=250,
-        evaluation_strategy="steps", # Added by Thomas
+        eval_strategy="steps", # Added by Thomas
         eval_steps=1000, # Added by Thomas
         save_steps=1000, # Number of updates steps before two checkpoint saves.
         num_train_epochs=12, # Total number of training epochs to perform.          
@@ -93,11 +97,11 @@ def main(args):
     trainer = SFTTrainer(
         model=model,
         args=args,
-        train_dataset=train_dataset,
+        train_dataset=train_dataset['train'],
+        eval_dataset=train_dataset['test'],
         peft_config=peft_config,
         max_seq_length=max_seq_length, # maximum packed length 
         tokenizer=tokenizer,
-        packing=True,
         dataset_kwargs={
             "add_special_tokens": False, 
             "append_concat_token": False,
