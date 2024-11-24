@@ -62,9 +62,9 @@ def main(args):
     peft_config = LoraConfig(
             lora_alpha=128, 
             lora_dropout=0.05,
-            r=128, # Change from Niklas / Different from Phil Schmid's blog post
+            r=32, # Change from Niklas / Different from Phil Schmid's blog post
             bias="none",
-            target_modules="all-linear",
+            target_modules=["q_proj", "v_proj"],
             task_type="CAUSAL_LM"
     )
  
@@ -76,8 +76,8 @@ def main(args):
         eval_strategy="steps", # Added by Thomas
         eval_steps=1000, # Added by Thomas
         save_steps=1000, # Number of updates steps before two checkpoint saves.
-        num_train_epochs=12, # Total number of training epochs to perform.          
-        per_device_train_batch_size=3, # The batch size per GPU/TPU core/CPU for training.
+        num_train_epochs=3, # Total number of training epochs to perform.          
+        per_device_train_batch_size=5, # The batch size per GPU/TPU core/CPU for training.
         gradient_accumulation_steps=2, # Number of updates steps to accumulate the gradients for, before performing a backward/update pass.
         gradient_checkpointing=True,
         gradient_checkpointing_kwargs={"use_reentrant":False},# Added by Thomas
@@ -93,7 +93,7 @@ def main(args):
     )
  
     # Supervised fine-tuning (or SFT for short) 
-    max_seq_length = 3072
+    max_seq_length = 512
     trainer = SFTTrainer(
         model=model,
         args=args,
