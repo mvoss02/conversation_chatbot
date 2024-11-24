@@ -2,6 +2,7 @@ import PyPDF2
 import regex as re
 import itertools
 import json
+from helper import config
 
 def read_pdf(path_to_pdf: str, save_output: bool, path_to_output: str, main_character: str):
     pdf = open(path_to_pdf, 'rb')
@@ -96,3 +97,31 @@ def convert_txt_to_json(path_to_txt: str, path_to_output: str) -> None:
             # Serialize each dictionary to JSON and write it as a single line
             json.dump(entry, f, ensure_ascii=False)
             f.write('\n')  # Add a newline to separate each JSON object
+            
+def create_conversation(sample):
+    """
+    Convert a dictionary of messages into a standardized conversation format where:
+    - 'MAIN' is mapped to 'assistant'.
+    - All other roles are mapped to 'user'.
+    
+    Args:
+    sample (dict): A dictionary containing a conversation history in the "messages" field.
+
+    Returns:
+    dict: A dictionary in the format expected by LLMs, with normalized roles.
+    """
+    processed_messages = []
+    
+    for message in sample["messages"]:
+        if message["role"] == "MAIN":
+            role = "assistant"
+        else:
+            role = "user"
+        
+        processed_messages.append({
+            "system": config.SYSTEM_MESSAGE,
+            "role": role,
+            "content": message["content"]
+        })
+    
+    return {"messages": processed_messages}

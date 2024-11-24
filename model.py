@@ -1,6 +1,6 @@
 import argparse
 import torch
-import re
+from helper.pdf_reader import create_conversation
 from helper import config
  
 from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig, TrainingArguments
@@ -18,7 +18,7 @@ def main(args):
     peft_model_id=config.PEFT_MODEL_ID
  
     # Load training data and split
-    train_dataset = load_dataset("json", data_files=[file for file in config.MOVIE_OUTPUT_FINAL], split="train")
+    train_dataset = load_dataset("json", data_files=[file for file in config.MOVIE_OUTPUT_FINAL], split="train").map(create_conversation, batched=False)
     
     # Split dataset into 90-10%
     train_dataset = train_dataset.train_test_split(test_size=0.1, seed=42)
@@ -86,7 +86,7 @@ def main(args):
     )
  
     # Supervised fine-tuning (or SFT for short) 
-    max_seq_length = 1024
+    max_seq_length = 256
     trainer = SFTTrainer(
         model=model,
         args=args,
