@@ -18,7 +18,8 @@ def main(args):
     peft_model_id=config.PEFT_MODEL_ID
  
     # Load training data and split
-    train_dataset = load_dataset("json", data_files=[file for file in config.MOVIE_OUTPUT_FINAL], split="train").map(create_conversation, batched=False)
+    train_dataset = load_dataset("json", data_files=[file for file in config.MOVIE_OUTPUT_FINAL], split="train")
+    new_dataset = train_dataset.map(create_conversation, batched=False)
     
     # Split dataset into 90-10%
     train_dataset = train_dataset.train_test_split(test_size=0.1, seed=42)
@@ -69,7 +70,7 @@ def main(args):
         eval_strategy="steps", # Added by Thomas
         eval_steps=1000, # Added by Thomas
         save_steps=1000, # Number of updates steps before two checkpoint saves.
-        num_train_epochs=10, # Total number of training epochs to perform.          
+        num_train_epochs=4, # Total number of training epochs to perform.          
         per_device_train_batch_size=5, # The batch size per GPU/TPU core/CPU for training.
         gradient_accumulation_steps=2, # Number of updates steps to accumulate the gradients for, before performing a backward/update pass.
         gradient_checkpointing=True,
@@ -86,7 +87,7 @@ def main(args):
     )
  
     # Supervised fine-tuning (or SFT for short) 
-    max_seq_length = 256
+    max_seq_length = 1024
     trainer = SFTTrainer(
         model=model,
         args=args,

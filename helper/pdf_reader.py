@@ -110,7 +110,14 @@ def create_conversation(sample):
     Returns:
     dict: A dictionary in the format expected by LLMs, with normalized roles.
     """
-    processed_messages = []
+    # Define the system message
+    system_message = {
+        "role": "system",
+        "content":  config.SYSTEM_MESSAGE
+    }
+    
+    # Start with the system message
+    processed_messages = [system_message]
     
     for message in sample["messages"]:
         if message["role"] == "MAIN":
@@ -119,7 +126,6 @@ def create_conversation(sample):
             role = "user"
         
         processed_messages.append({
-            "system": config.SYSTEM_MESSAGE,
             "role": role,
             "content": message["content"]
         })
