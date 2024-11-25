@@ -22,7 +22,7 @@ def main(args):
     new_dataset = train_dataset.map(create_conversation, batched=False)
     
     # Split dataset into 90-10%
-    train_dataset = train_dataset.train_test_split(test_size=0.1, seed=42)
+    new_dataset = new_dataset.train_test_split(test_size=0.1, seed=42)
     torch.utils.checkpoint.use_reentrant=True
  
     # Configure the Bits and Bites quantization
@@ -77,7 +77,7 @@ def main(args):
         gradient_checkpointing_kwargs={"use_reentrant":False},# Added by Thomas
         optim="adamw_torch_fused",   
         save_strategy="epoch",        
-        learning_rate=2e-4, # The initial learning rate for Adam.
+        learning_rate=0.0001,
         fp16=True, # Whether to use 16-bit (mixed) precision training (through NVIDIA apex) instead of 32-bit training. Change from Niklas / Different from Phil Schmid's blog post
         max_grad_norm=0.3, # Maximum gradient norm (for gradient clipping).                   
         warmup_ratio=0.03, # Number of steps used for a linear warmup from 0 to learning_rate.                  
@@ -91,8 +91,8 @@ def main(args):
     trainer = SFTTrainer(
         model=model,
         args=args,
-        train_dataset=train_dataset['train'],
-        eval_dataset=train_dataset['test'],
+        train_dataset=new_dataset['train'],
+        eval_dataset=new_dataset['test'],
         peft_config=peft_config,
         max_seq_length=max_seq_length, # maximum packed length 
         tokenizer=tokenizer,

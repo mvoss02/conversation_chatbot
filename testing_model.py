@@ -45,7 +45,7 @@ input_ids = tokenizer(prompt, return_tensors="pt").input_ids.to(model.device)
 # Generate the response
 output = model.generate(
     input_ids=input_ids,
-    max_length=200,
+    max_length=256,
     temperature=0.8,
     top_p=0.9,
     repetition_penalty=1.2,
