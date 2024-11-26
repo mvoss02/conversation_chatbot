@@ -1,6 +1,6 @@
 import argparse
 import torch
-from helper.pdf_reader import create_conversation
+from helper.pdf_reader import create_conversation, conevrt_to_jsonl
 from helper import config
  
 from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig, TrainingArguments
@@ -10,6 +10,8 @@ from peft import LoraConfig
 from trl import SFTTrainer
  
 def main(args):
+    conevrt_to_jsonl('movies/manual/american_psycho.txt', 'BATEMAN') #TODO: Change to an automated process
+    
     # Base model id
     model_id = config.MODEL_ID
  
@@ -19,10 +21,10 @@ def main(args):
  
     # Load training data and split
     train_dataset = load_dataset("json", data_files='/home/mvoss/projects/conversational_chatbot/test/BATEMAN_lines.jsonl', split="train") # [file for file in config.MOVIE_OUTPUT_FINAL]
-    new_dataset = train_dataset.map(create_conversation, batched=False)
+    #new_dataset = train_dataset.map(create_conversation, batched=False)
     
     # Split dataset into 90-10%
-    new_dataset = new_dataset.train_test_split(test_size=0.1, seed=42)
+    new_dataset = train_dataset.train_test_split(test_size=0.1, seed=42)
     torch.utils.checkpoint.use_reentrant=True
  
     # Configure the Bits and Bites quantization

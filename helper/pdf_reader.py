@@ -131,3 +131,88 @@ def create_conversation(sample):
         })
     
     return {"messages": processed_messages}
+
+def convert_pdf_to_txt(path_to_pdf: str, path_to_output: str):
+    # Open the PDF file
+    with open(path_to_pdf, 'rb') as pdf_file:
+        pdf = PyPDF2.PdfReader(pdf_file)
+        
+        print('Path to PDF:', path_to_pdf)
+        print('Number of pages in PDF:', len(pdf.pages))
+        
+        # Initialize a single string to hold all text
+        all_text = ""
+        
+        # Iterate through all pages and extract text
+        for page in pdf.pages:
+            text = page.extract_text()
+            if text:  # Check if the page has any text
+                all_text += text.strip() + "\n"  # Add a newline between pages
+        
+        # Write the combined text to the output file
+        with open(path_to_output, "w", encoding="utf-8") as file:
+            file.write(all_text)
+            
+def parse_dialogues(file_path: str):
+    dialogues = []  # List to store parsed dialogue tuples (name, text)
+    current_speaker = None
+    current_text = []
+    
+    with open(file_path, 'r', encoding='utf-8') as file:
+        for line in file:
+            line = line.strip()  # Remove surrounding whitespace
+            
+            if line.isupper():  # Check if the line is all uppercase
+                # Save the previous dialogue if it exists
+                if current_speaker and current_text:
+                    dialogues.append((current_speaker, " ".join(current_text)))
+                # Start a new dialogue
+                current_speaker = line
+                current_text = []
+            elif line:  # If the line is not empty, add it to the current text
+                current_text.append(line)
+        
+        # Add the last dialogue block after exiting the loop
+        if current_speaker and current_text:
+            dialogues.append((current_speaker, " ".join(current_text)))
+    
+    return dialogues
+
+
+def conevrt_to_jsonl(file_path: str, main_character: str):
+    dialogues = parse_dialogues(file_path)
+    
+    # Open the output file
+    with open(f'./{main_character}_lines.jsonl', 'w', newline='', encoding='utf-8') as outfile:
+        i = 0
+        while i < len(dialogues):
+            messages = []
+
+            # Add system message
+            messages.append({
+                'role': 'system',
+                'content': 'You are Patrick Bateman, a narcissist working on Wall Street as a stockbroker at Pierce & Pierce.'
+            })
+
+            # Check if current dialogue belongs to main character
+            if dialogues[i][0].startswith(f'{main_character}'):
+                # Include previous line if not from the main character
+                if i > 0 and not dialogues[i-1][0].startswith(f'{main_character}'):
+                    messages.append({
+                        "role": "user",
+                        "content": dialogues[i - 1][1] + " <EOS>"
+                    })
+                
+                # Collect dialogue block
+                while i < len(dialogues) and dialogues[i][0].startswith(f'{main_character}'):
+                    messages.append({
+                        "role": "assistant",
+                        "content": dialogues[i][1] + " <EOS>"
+                    })
+                    i += 1
+
+                # Write to JSONL
+                jsonl_entry = {"messages": messages}
+                outfile.write(json.dumps(jsonl_entry) + "\n")
+            else:
+                i += 1
