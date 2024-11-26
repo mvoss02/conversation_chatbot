@@ -1,9 +1,16 @@
+MOVIE_SCRIPT_PDF_TO_TEXT = {
+        './movie_scripts/american_psycho.pdf': './movies/american_psycho.txt',
+        './movie_scripts/no_time_to_die.pdf': './movies/no_time_to_die.txt',
+        './movie_scripts/top_gun_maverick.pdf': './movies/top_gun_maverick.txt',
+        './movie_scripts/wedding_crashers.pdf':'./movies/wedding_crashers.txt',
+}
+
 MOVIE_OUTPUT_FINAL = [
         'output/final_scripts/american_psycho.jsonl',
         './output/final_scripts/no_time_to_die.jsonl',
         './output/final_scripts/top_gun_maverick.jsonl',
         './output/final_scripts/wedding_crashers.jsonl',
-    ]
+]
 
 MODEL_ID = "mistralai/Mistral-7B-Instruct-v0.3"
 

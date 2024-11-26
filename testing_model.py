@@ -2,6 +2,7 @@ from transformers import AutoTokenizer, BitsAndBytesConfig
 from peft import AutoPeftModelForCausalLM
 import torch
 from trl import setup_chat_format
+from helper import config
 
 # Define the path to the fine-tuned model
 peft_model_id = "./output/model"  # Your fine-tuned model path
@@ -31,25 +32,40 @@ model, tokenizer = setup_chat_format(model, tokenizer)
 # Set model to evaluation mode (important for inference)
 model.eval()
 
+special_tokens = {
+    "pad_token": "[PAD]",
+    "eos_token": "</s>",
+    "bos_token": "<s>",
+    "additional_special_tokens": ["<user>", "<assistant>"]
+}
+tokenizer.add_special_tokens(special_tokens)
+model.resize_token_embeddings(len(tokenizer))
+
 # Scenario 1: Generate an opener (no previous messages)
 person_info = {'name': 'Anna', 'age': 28, 'job': 'Photographer'}
 my_info = {'name': 'John', 'age': 32, 'job': 'Software Engineer'}
 
-prompt = f"""
-Generate an opener for a conversation with Anna. She loves traveling and photography. Make it flirty and funny.
-"""
+prompt = "<user>: Generate a short, flirty, and funny opener to start a conversation with Anna.\n<assistant>:"
 
 # Tokenize the input
-input_ids = tokenizer(prompt, return_tensors="pt").input_ids.to(model.device)
+messages = [
+    {
+        "role": "system",
+        "content": config.SYSTEM_MESSAGE + "Generate a short and fun opener for a women called Anna who is a Photographer.",
+    },
+    {"role": "user", "content": ""},
+ ]
+tokenized_chat = tokenizer.apply_chat_template(messages, tokenize=True, add_generation_prompt=True, return_tensors="pt")
 
 # Generate the response
 output = model.generate(
-    input_ids=input_ids,
-    max_length=256,
+    input_ids=tokenized_chat,
+    max_length=512,  # Limit output length to a single response
     temperature=0.8,
     top_p=0.9,
     repetition_penalty=1.2,
-    do_sample=True
+    pad_token_id=tokenizer.pad_token_id,
+    eos_token_id=tokenizer.eos_token_id, # End generation at the eos_token
 )
 
 # Decode and print the result
