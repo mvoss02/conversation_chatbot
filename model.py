@@ -18,7 +18,7 @@ def main(args):
     peft_model_id=config.PEFT_MODEL_ID
  
     # Load training data and split
-    train_dataset = load_dataset("json", data_files=[file for file in config.MOVIE_OUTPUT_FINAL], split="train")
+    train_dataset = load_dataset("json", data_files='/home/mvoss/projects/conversational_chatbot/test/BATEMAN_lines.jsonl', split="train") # [file for file in config.MOVIE_OUTPUT_FINAL]
     new_dataset = train_dataset.map(create_conversation, batched=False)
     
     # Split dataset into 90-10%
@@ -45,6 +45,9 @@ def main(args):
  
     tokenizer = AutoTokenizer.from_pretrained(model_id)
     tokenizer.padding_side = 'right'
+    
+    tokenizer.add_special_tokens({"eos_token": "<EOS>"})
+    model.resize_token_embeddings(len(tokenizer))
     
     # Ensure the tokenizer's chat template is cleared before setup
     if hasattr(tokenizer, "chat_template"):

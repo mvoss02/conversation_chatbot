@@ -20,7 +20,6 @@ tokenizer = AutoTokenizer.from_pretrained(peft_model_id)
 tokenizer.padding_side = 'right'
 
 model.resize_token_embeddings(len(tokenizer))
-tokenizer.add_special_tokens({'pad_token': '[PAD]'})
     
 # Ensure the tokenizer's chat template is cleared before setup
 if hasattr(tokenizer, "chat_template"):
@@ -32,40 +31,26 @@ model, tokenizer = setup_chat_format(model, tokenizer)
 # Set model to evaluation mode (important for inference)
 model.eval()
 
-special_tokens = {
-    "pad_token": "[PAD]",
-    "eos_token": "</s>",
-    "bos_token": "<s>",
-    "additional_special_tokens": ["<user>", "<assistant>"]
-}
-tokenizer.add_special_tokens(special_tokens)
-model.resize_token_embeddings(len(tokenizer))
-
-# Scenario 1: Generate an opener (no previous messages)
-person_info = {'name': 'Anna', 'age': 28, 'job': 'Photographer'}
-my_info = {'name': 'John', 'age': 32, 'job': 'Software Engineer'}
-
-prompt = "<user>: Generate a short, flirty, and funny opener to start a conversation with Anna.\n<assistant>:"
-
 # Tokenize the input
 messages = [
     {
         "role": "system",
-        "content": config.SYSTEM_MESSAGE + "Generate a short and fun opener for a women called Anna who is a Photographer.",
+        "content": "You are Patrick Bateman, a narcissist working on Wall Street as a stockbroker at Pierce & Pierce.",
     },
-    {"role": "user", "content": ""},
- ]
+    {"role": "user", "content": "Where should we go for dinner?"},
+]
+
 tokenized_chat = tokenizer.apply_chat_template(messages, tokenize=True, add_generation_prompt=True, return_tensors="pt")
+input_ids = tokenized_chat.to('cuda')
 
 # Generate the response
 output = model.generate(
-    input_ids=tokenized_chat,
-    max_length=512,  # Limit output length to a single response
+    input_ids=input_ids,
+    max_length=128,  # Limit output length to a single response
     temperature=0.8,
-    top_p=0.9,
-    repetition_penalty=1.2,
-    pad_token_id=tokenizer.pad_token_id,
-    eos_token_id=tokenizer.eos_token_id, # End generation at the eos_token
+    do_sample=True,
+    eos_token_id=tokenizer.eos_token_id,
+    repetition_penalty=1.1
 )
 
 # Decode and print the result
